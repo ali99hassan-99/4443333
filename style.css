@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* خلفية الموقع سوداء */
+    margin: 0;
+    padding: 0;
+    color: #ffeb3b; /* النص باللون الأصفر */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1a1a1a; /* خلفية سوداء داكنة */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 235, 59, 0.2); /* ظل أصفر */
+    border: 2px solid #ffeb3b; /* إطار أصفر */
+}
+
+h1 {
+    text-align: center;
+    color: #ffeb3b; /* النص باللون الأصفر */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ffeb3b; /* أزرار صفراء */
+    color: #000000; /* النص على الأزرار أسود */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c9b400; /* لون داكن عند التمرير */
+    color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ffeb3b; /* إطار أصفر */
+    padding: 10px;
+    text-align: center;
+    color: #ffeb3b; /* النص أصفر */
+    background-color: #1a1a1a; /* خلفية سوداء داكنة */
+}
+
+table th {
+    background-color: #ffeb3b; /* خلفية العناوين صفراء */
+    color: #000000; /* النص على العناوين أسود */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a; /* تباين في صفوف الجدول */
+}
